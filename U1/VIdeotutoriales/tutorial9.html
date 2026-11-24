@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table,th,td{
+
+            border:1px solid black ;
+            border-collapse: collapse;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table>
+
+         <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+         <tr>
+            <td>Alberto</td>
+            <td>Jiménez</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Lopez</td>
+            <td>11</td>
+        </tr>
+    </table>
+    <h1>Caption y COLSpan</h1>
+ <table>   
+    <caption>Telefonos</caption>
+        <tr>
+            <th>Nombre</th>
+            <th colspan="2">Telofono</th>
+        </tr>
+        <tr>
+            <td>Trump</td>
+            <td>6664442</td>
+            <td>22213234</td>
+        </tr>
+</table>
+<h1>RowSpan</h1>
+<table>
+    <tr>
+        <th>Nombre:</th>
+        <td>Juan</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Teléfono</th>
+        <td>123455533</td>
+
+    </tr>
+    <tr>
+        <td>355572156</td>
+    </tr>
+</table>
+<h1>Propiedades por columna</h1>
+<table>
+    <colgroup>
+        <col style="background-color: aqua;">
+        <col style="background-color: yellow;">
+        <col style="background-color: red;">
+    </colgroup>
+    <tr>
+        <th>ISBN</th>
+        <th>Título</th>
+        <th>Precio</th>
+    </tr>
+    <tr>
+        <td>233444</td>
+        <td>HTML</td>
+        <td>34$</td>
+    </tr>
+    <tr>
+        <td>111453</td>
+        <td>CSS</td>
+        <td>21$</td>
+    </tr>
+</table>
+</body>
+</html>
